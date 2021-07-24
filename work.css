@@ -134,6 +134,7 @@ main p {
 }
 
 .work {
+    display: grid;
     float: left;
     position: relative;
     width: 1000px;
@@ -144,4 +145,8 @@ main p {
     z-index: 1;
     box-sizing: border-box;
 
+}
+
+.work1 {
+    grid-template-columns: 200px 50px 100px;
 }
