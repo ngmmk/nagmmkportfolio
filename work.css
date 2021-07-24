@@ -133,3 +133,7 @@ main p {
     width: 300px;
 }
 
+.work {
+    display: flex;
+    flex-flow: center;
+}
