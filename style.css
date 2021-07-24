@@ -1,3 +1,4 @@
+/* ハンバーガー　*/
 .menu-btn {
     position: fixed;
     top: 10px;
@@ -100,4 +101,10 @@
 
 #menu-btn-check:checked ~ .menu-content {
     left: 0;
+}
+
+/* top */
+
+.top {
+    background-color: chocolate ;
 }
