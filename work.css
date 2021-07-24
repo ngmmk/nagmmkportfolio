@@ -134,6 +134,14 @@ main p {
 }
 
 .work {
-    display: flex;
-    flex-flow: center;
+    float: left;
+    position: relative;
+    width: 270px;
+    margin: 0 20px 48px 0;
+    border: 10px solid #fff;
+    background: #fff;
+    box-shadow: 5px 5px 5px #222;
+    z-index: 1;
+    box-sizing: border-box;
+
 }
