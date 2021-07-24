@@ -163,5 +163,12 @@ html {
       transform:translateX(25%);
     }
   }
+
+  /* work */
+  .work {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
   
   
