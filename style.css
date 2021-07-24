@@ -153,8 +153,12 @@ html {
   
   h1 {
     font-family:monospace;
+    color: rgb(85, 19, 79);
   }
-  
+  p {
+      font-family: monospace;
+      color: rgb(129, 109, 109);
+  }
   @keyframes slide {
     0% {
       transform:translateX(-25%);
