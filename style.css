@@ -54,6 +54,8 @@
     left: 0;
     z-index: 80;
     background-color: salmon;
+    text-align: center;
+    transition: all .5s;
 }
 
 .menu-content ul {
@@ -62,6 +64,7 @@
 .menu-content ul li {
     border-bottom: solid 1px #ffffff;
     list-style: none;
+    margin-top: 50px;
 }
 .menu-content ul li a { 
     display: block;
