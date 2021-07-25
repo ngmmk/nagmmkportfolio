@@ -53,6 +53,9 @@
     left: 0;
     z-index: 80;
     background-color: salmon;
+    text-align: center;
+    transition: all .5s;
+    
 }
 
 .menu-content ul {
@@ -61,6 +64,8 @@
 .menu-content ul li {
     border-bottom: solid 1px #ffffff;
     list-style: none;
+    margin-top: 50px;
+    
 }
 .menu-content ul li a { 
     display: block;
@@ -101,3 +106,131 @@
 #menu-btn-check:checked ~ .menu-content {
     left: 0;
 }
+
+body {
+    background-color: rgb(248, 146, 134);
+    
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 100px;
+}
+
+main h1{
+    color: salmon;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+    width: 300px;
+    margin-bottom: 0px;
+    border-top: ridge 20px plum;
+    
+}
+
+main h3 {
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    width: 300px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: monospace;
+}
+
+/* about */
+
+.basic ul {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    border: solid 2px #ffffff;
+    padding: 0.5em 1em 0.5em 2.3em;
+    position: relative;
+    background: rgb(231, 207, 139);
+    
+}
+
+.basic ul li {
+    
+    text-align: center;
+    line-height: 1.5;
+    padding: 0.5em 0;
+    list-style-type: none!important;
+  }
+
+  .basic p {
+      text-align: center;
+      
+      background-color: white;
+  }
+
+  .hobby ul {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    border: solid 2px #ffffff;
+    padding: 0.5em 1em 0.5em 2.3em;
+    position: relative;
+    background: rgb(231, 207, 139);
+  }
+
+  .hobby ul li {
+    text-align: center;
+    line-height: 1.5;
+    padding: 0.5em 0;
+    list-style-type: none!important;
+  }
+  .hobby p {
+    text-align: center;
+    
+    background-color: white;
+}
+
+.skill {
+    background-color: rgb(184, 127, 218);
+    padding-bottom: 30px;
+}
+
+.skill h4 {
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.skill ul {
+    padding: 0;
+  }
+  
+
+
+  .skill ul li {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    color: #404040;
+    border-left: solid 6px #a07526;/*左側の線*/
+    border-bottom: solid 2px #dadada;/*下に灰色線*/
+    background: whitesmoke;
+    margin-bottom: 5px;/*下のバーとの余白*/
+    line-height: 1.5;
+    padding: 0.5em;
+    list-style-type: none!important;/*ポチ消す*/
+    font-weight: bold;
+  }
+
+  .skill p {
+      text-align: center;
+  }
